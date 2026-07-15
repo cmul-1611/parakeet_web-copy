@@ -69,7 +69,7 @@ services:
       - VITE_ANALYTICS_WEBSITE_ID=${VITE_ANALYTICS_WEBSITE_ID}
       - VITE_ANALYTICS_SRI=${VITE_ANALYTICS_SRI:-}
       - VITE_DICTATION_DEVICE_SUPPORT=${VITE_DICTATION_DEVICE_SUPPORT:-true}
-      - VITE_MODEL_REPO=${VITE_MODEL_REPO:-Olicorne/parakeet-tdt-0.6b-v3-smoothquant-onnx}
+      - VITE_MODEL_REPO=${VITE_MODEL_REPO:-rokeya71/parakeet-tdt-ctc-110m-onnx}
       - VITE_MODEL_REVISION=${VITE_MODEL_REVISION:-}
       # Where to fetch model weights from:
       #   hf    : HuggingFace only (default)
