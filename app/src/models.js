@@ -46,17 +46,17 @@ export const LANGUAGE_NAMES = {
  * @type {Object.<string, ModelConfig>}
  */
 export const MODELS = {
-  'parakeet-tdt-0.6b-v3': {
-    repoId: 'Olicorne/parakeet-tdt-0.6b-v3-smoothquant-onnx',
-    displayName: 'Parakeet TDT 0.6B v3 (Multilingual)',
-    languages: ['en', 'fr', 'de', 'es', 'it', 'pt', 'nl', 'pl', 'ru', 'uk', 'ja', 'ko', 'zh'],
+  'parakeet-tdt-ctc-110m': {
+    repoId: 'rokeya71/parakeet-tdt-ctc-110m-onnx',
+    displayName: 'Parakeet 110M (English)',
+    languages: ['en'],
     defaultLanguage: 'en',
-    vocabSize: 4097,  // Larger vocabulary for multilingual support
-    featuresSize: 128,
-    preprocessor: 'nemo128',
+    vocabSize: 1025, 
+    featuresSize: 80,
+    preprocessor: 'nemo80',
     subsampling: 8,
     predHidden: 640,
-    predLayers: 2,
+    predLayers: 1,
     revision: 'main',
   },
 };
@@ -67,8 +67,7 @@ export const MODELS = {
  * browser default to the same multilingual v3 model.
  * @type {string}
  */
-export const DEFAULT_MODEL = 'parakeet-tdt-0.6b-v3';
-
+export const DEFAULT_MODEL = 'parakeet-tdt-ctc-110m';
 /**
  * Get model configuration by model key or repo ID.
  * @param {string} modelKeyOrRepoId - Model key (e.g., 'parakeet-tdt-0.6b-v3') or repo ID
