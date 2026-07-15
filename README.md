@@ -2,7 +2,7 @@
   <img src="./icon.svg" alt="Parakeet Web logo" width="128" height="128" />
 </p>
 
-# Parakeet Web Copy*** (Changed Under the hood Model to Parakeet 110m for lighter weight, shorter burst (smaller backend since I don't need it for long form) input)
+# Parakeet Web Copy*** (Changed Under the hood Model to Parakeet 110m for lighter weight, shorter burst (smaller backend since I don't need it for long form) input) HUGE thank you to Olivier Cornelis for his work.
 
 **[English](./README.md) | [Français](./README_fr.md)**
 
