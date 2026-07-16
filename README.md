@@ -2,6 +2,6 @@
 # Parakeet Web Copy*** (Changed Under the hood Model to Parakeet 110m for lighter weight, shorter burst (smaller backend since I don't need it for long form) input) 
 ## Credits
 
-This fork is but a minor change to the underlying model in the excellent work of Olivier Cornelis.
+This fork is but a minor change to the underlying model in the excellent work of **[Olivier Cornelis](https://github.com/thiswillbeyourgithub/parakeet_web)**.
 
 His fork is based on **[ysdede/parakeet.js](https://github.com/ysdede/parakeet.js)** – all the heavy lifting and original implementation credit goes there. This would not exist without their excellent work.
