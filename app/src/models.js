@@ -47,7 +47,7 @@ export const LANGUAGE_NAMES = {
  */
 export const MODELS = {
   'parakeet-tdt-ctc-110m': {
-    repoId: 'rokeya71/parakeet-tdt-ctc-110m-onnx',
+    repoId: 'OpenVoiceOS/nvidia-parakeet-tdt_ctc-110m-onnx',
     displayName: 'Parakeet 110M (English)',
     languages: ['en'],
     defaultLanguage: 'en',
