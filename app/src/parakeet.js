@@ -643,7 +643,7 @@ export class ParakeetModel {
 
     // Combined model specific constants
     this.predHidden = 640;
-    this.predLayers = 2;
+    this.predLayers = 1;
     this.maxTokensPerStep = 10;
 
     // Allocate zero LSTM states for the combined decoder; will be reused.
