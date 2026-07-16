@@ -1,4 +1,4 @@
-⚠️ UNDER ACTIVE DEVELOPMENT. MUCH CODE IS NOT IN ORDER. CURRENTLY FUNCTIONAL IN A VERCEL APP WITH ADDED ENVIRONMENTAL VARIABLE penVoiceOS/nvidia-parakeet-tdt_ctc-110m-onnx 
+⚠️ UNDER ACTIVE DEVELOPMENT. MUCH CODE IS NOT IN ORDER. CURRENTLY FUNCTIONAL AS A VERCEL APP WITH ADDED ENVIRONMENTAL VARIABLE penVoiceOS/nvidia-parakeet-tdt_ctc-110m-onnx 
 # Parakeet Web Copy*** (Changed Under the hood Model to Parakeet 110m for lighter weight, shorter burst (smaller backend since I don't need it for long form) input) 
 ## Credits
 
